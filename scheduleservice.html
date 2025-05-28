@@ -1,0 +1,115 @@
+ <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Schedule Service | Haul Pulse Diesel Repair</title>
+  <meta name="description" content="Schedule diesel truck repair or fleet maintenance with Haul Pulse. Fill out our easy service request form to minimize downtime and keep your fleet rolling.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <video autoplay muted loop id="background-video">
+    <source src="truckstopdji_video.mp4" type="video/mp4">
+  </video>
+
+  <header>
+    <img src="logo2.png" alt="Haul Pulse Logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="fleetservices.html">Fleet Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="slogan">
+    <p>Keeping Your Fleet on the Road, One Repair at a Time</p>
+  </section>
+
+  <section class="par1">
+    <div class="container">
+      <h1>Schedule Service with Haul Pulse</h1>
+      <p>At Haul Pulse, we know that time is critical in the trucking industry. Whether you're an independent driver or manage an entire fleet, downtime means lost revenue. That’s why we make it easy to schedule diesel repair and maintenance services tailored to your needs. Our expert team is ready to handle everything from minor repairs to full diagnostics and preventative maintenance.</p>
+
+      <p>By using our convenient service request form, you can book an appointment without picking up the phone. Just fill out the form below with your contact information, vehicle details, and a brief description of the issue—or let us know if you're coming in for routine maintenance. Once submitted, a member of our team will reach out promptly to confirm your appointment and answer any questions you may have.</p>
+
+      <p>We service all major brands of diesel trucks and trailers, including Peterbilt, Kenworth, Freightliner, Volvo, Mack, and International. Our technicians are certified and experienced in everything from engine and transmission diagnostics to brake systems and DOT inspections. Whether it’s a single vehicle or an entire fleet, you can trust Haul Pulse to deliver efficient, professional, and thorough repairs.</p>
+
+      <p>Your safety, schedule, and satisfaction are our top priorities. That’s why we offer flexible appointment slots and keep you updated throughout the repair process. Our transparent communication and quick turnaround times are what make Haul Pulse a trusted partner in the trucking community.</p>
+
+      <p>Use the form below to request service today and keep your truck or fleet rolling with confidence.</p>
+
+      <div class="image-row">
+        <img src="hplogo.jpg" alt="Haul Pulse Logo">
+        <img src="image_2.jpg" alt="Diesel Truck Service">
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="form">
+      <h2>Request Service</h2>
+
+      <div class="contact-pref-row">
+        <label for="contactPref">Preferred Contact Method:</label>
+        <div class="radio-group">
+          <input type="radio" id="contactPhone" name="contactPref" value="phone" />
+          <label for="contactPhone">Phone</label>
+          <input type="radio" id="contactEmail" name="contactPref" value="email" />
+          <label for="contactEmail">Email</label>
+        </div>
+      </div>
+
+      <form id="contactForm">
+        <div class="form-row name-row">
+          <input type="text" id="firstName" name="firstName" placeholder="First Name" required />
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name" required />
+          <input type="text" id="companyName" name="companyName" placeholder="Company Name" required />
+        </div>
+
+        <div class="form-row contact-row">
+          <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" required />
+          <input type="email" id="emailAddress" name="emailAddress" placeholder="Email Address" required />
+          <input type="text" id="dotNumber" name="dotNumber" placeholder="DOT Number" required />
+        </div>
+
+        <div class="form-row vehicle-row">
+          <input type="text" id="make" name="make" placeholder="Make" required />
+          <input type="text" id="model" name="model" placeholder="Model" required />
+          <input type="text" id="serialNumber" name="serialNumber" placeholder="Serial Number" required />
+        </div>
+
+        <div class="form-row truck-row">
+          <input type="text" id="truckNumber" name="truckNumber" placeholder="Truck Number" required />
+          <input type="text" id="trailerNumber" name="trailerNumber" placeholder="Trailer Number" required />
+        </div>
+
+        <div class="form-row message-row">
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" placeholder="Describe your issue or service request..." required></textarea>
+        </div>
+
+        <div class="form-row submit-row">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+
+      <div id="response"></div>
+      <script src="my_javascript.js"></script>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="services.html">Services</a> |
+      <a href="fleetservices.html">Fleet Services</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="aboutus.html">About Us</a>
+    </p>
+  </footer>
+</body>
+</html>
